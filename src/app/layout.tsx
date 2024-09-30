@@ -25,8 +25,8 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: "Coding Jitsu",
-      url: "https://github.com/codingjitsu",
+      name: "zengzilin",
+      url: "https://github.com/zengzilin",
     },
   ],
   creator: "coding jitsu",
