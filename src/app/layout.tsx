@@ -5,7 +5,10 @@ import { ThemeProvider } from "@/components/theme-provider";
 import Footer from "@/components/footer";
 import { siteConfig } from "@/config/site";
 import { GoogleTagManager } from '@next/third-parties/google'
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3467523edc3cf7ffe43e03ed3be0a5f19ee820a8
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -62,7 +65,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-      <GoogleTagManager gtmId="G-9LQ118FGES" />
+        <GoogleTagManager gtmId="G-9LQ118FGES" />
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
